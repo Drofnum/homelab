@@ -44,10 +44,10 @@
 - Information:
     - Speedtest Tracker:
         icon: mdi-speedometer
-        href: http://IPADDRESS
+        href: http://192.168.1.139:8765/
         description: speedtest
-        ping: http://IPADDRESS
+        ping: http://192.168.1.139:8765/
         container: speedtest
         widget:
             type: speedtest
-            url: http://IPADDRESS   
+            url: http://192.168.1.139:8765/
