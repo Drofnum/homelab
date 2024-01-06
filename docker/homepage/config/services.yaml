@@ -1,0 +1,53 @@
+- Network Services:
+    - pfSense:
+        icon: mdi-wall-fire
+        href: http://192.168.1.99
+        description: Firewall
+        ping: http://192.168.1.99
+    - pihole:
+        icon: mdi-pi-hole
+        href: http://192.168.1.9
+        description: network ad blocking
+        ping: http://192.168.1.9
+        widget:
+            type: pihole
+            url: http://192.168.1.9
+            key: 
+
+- Media Services:
+    - TrueNAS:
+        icon: mdi-nas
+        href: http://IPADDRESS
+        description: NAS
+        ping: http://IPADDRESS
+        widget:
+          type: truenas
+          url: http://IPADDRESS
+          username:
+          password:
+          key: APIKEY
+    - Plex:
+        icon: plex
+        href: http://192.168.1.128
+        description: media
+        ping: https://192.168.1.128
+
+
+- Applications: 
+    - Proxmox:
+        icon:  mdi-server
+        href: https://192.168.1.11
+        description: hypervisor
+        ping: https://192.168.1.11
+
+
+- Information:
+    - Speedtest Tracker:
+        icon: mdi-speedometer
+        href: http://IPADDRESS
+        description: speedtest
+        ping: http://IPADDRESS
+        container: speedtest
+        widget:
+            type: speedtest
+            url: http://IPADDRESS   
