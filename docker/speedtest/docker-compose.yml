@@ -5,8 +5,8 @@ services:
         image: henrywhitaker3/speedtest-tracker
         ports:
             - 8765:80
-        # volumes:
-        #     - /path/to/data:/config
+        volumes:
+            - ./config:/config
         environment:
             - OOKLA_EULA_GDPR=true
         logging:

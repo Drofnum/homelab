@@ -3,12 +3,10 @@
         icon: mdi-wall-fire
         href: http://192.168.1.99
         description: Firewall
-        ping: http://192.168.1.99
     - pihole:
         icon: mdi-pi-hole
         href: http://192.168.1.9
         description: network ad blocking
-        ping: http://192.168.1.9
         widget:
             type: pihole
             url: http://192.168.1.9
@@ -28,26 +26,31 @@
           key: APIKEY
     - Plex:
         icon: plex
-        href: http://192.168.1.128
+        href: http://192.168.1.128:32400
         description: media
-        ping: https://192.168.1.128
+        widget:
+          type: plex
+          url: http://192.168.1.128:32400
+          key: 
 
 
-- Applications: 
+- Applications:
     - Proxmox:
         icon:  mdi-server
         href: https://192.168.1.11
         description: hypervisor
-        ping: https://192.168.1.11
-
+        widget:
+          type: proxmox
+          url: https://192.168.1.11:8006
+          username: api@pam!homepage
+          password: 
 
 - Information:
     - Speedtest Tracker:
         icon: mdi-speedometer
-        href: http://192.168.1.139:8765/
+        href: http://192.168.1.139:8765
         description: speedtest
-        ping: http://192.168.1.139:8765/
         container: speedtest
         widget:
             type: speedtest
-            url: http://192.168.1.139:8765/
+            url: http://192.168.1.139:8765

@@ -1,0 +1,52 @@
+[2024-01-06T03:02:46.186Z] info: docker.yaml was copied to the config folder
+[2024-01-06T03:02:46.192Z] info: bookmarks.yaml was copied to the config folder
+[2024-01-06T03:02:46.207Z] info: widgets.yaml was copied to the config folder
+[2024-01-06T03:02:46.214Z] info: custom.css was copied to the config folder
+[2024-01-06T03:02:46.217Z] info: custom.js was copied to the config folder
+[2024-01-06T03:02:46.246Z] info: kubernetes.yaml was copied to the config folder
+[2024-01-06T03:02:51.606Z] error: <httpProxy> Error calling http://ipaddress/...
+[2024-01-06T03:02:51.607Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN ipaddress
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'ipaddress'
+  }
+]
+[2024-01-06T03:02:51.618Z] error: <httpProxy> Error calling http://ipaddress/api/v2.0/alert/list...
+[2024-01-06T03:02:51.618Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN ipaddress
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'ipaddress'
+  }
+]
+[2024-01-06T03:02:51.619Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://ipaddress/api/v2.0/alert/list
+[2024-01-06T03:02:56.611Z] error: <httpProxy> Error calling http://ipaddress/api/v2.0/system/info...
+[2024-01-06T03:02:56.611Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN ipaddress
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'ipaddress'
+  }
+]
+[2024-01-06T03:02:56.611Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://ipaddress/api/v2.0/system/info
+[2024-01-06T03:02:56.648Z] error: <httpProxy> Error calling http://ipaddress/...
+[2024-01-06T03:02:56.648Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN ipaddress
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26) {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'ipaddress'
+  }
+]
